@@ -10,7 +10,7 @@ const gameBoard = document.querySelector('.game-board')
 
 const main = (currentTime) => {
   if (gameOver) {
-    if (confirm('You lost. Press ok to restart.')) {
+    if (confirm('Du förlorade! Tryck OK för att spela igen.')) {
       window.location = '/'
     }
     return
